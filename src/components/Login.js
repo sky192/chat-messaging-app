@@ -2,6 +2,9 @@ import React from "react";
 import firebase from "firebase";
 import { auth } from "../firebase";
 
+//icons
+// import google from "../assets/google.svg";
+
 //styles
 import styles from "./Login.module.css";
 
@@ -18,7 +21,8 @@ const Login = () => {
                         )
                     }
                 >
-                    <img src="" alt="google" /> Sign in with Google
+                    <img src="" alt="google" />
+                    Sign in with Google
                 </div>
             </div>
         </div>
