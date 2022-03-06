@@ -21,7 +21,7 @@ const Login = () => {
                         )
                     }
                 >
-                    <img src="" alt="google" />
+                    <img src="../assets/google.svg" alt="google" />
                     Sign in with Google
                 </div>
             </div>
