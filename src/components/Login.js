@@ -1,18 +1,19 @@
 import React from "react";
-import firebase from "firebase";
+import firebase from "firebase/app";
 import { auth } from "../firebase";
 
-//icons
-// import google from "../assets/google.svg";
+// Icons
+import google from "../assets/google.svg";
 
-//styles
+// Styles
 import styles from "./Login.module.css";
 
 const Login = () => {
     return (
         <div className={styles.loginPage}>
             <div className={styles.loginCard}>
-                <h2>Wellcome to Metagram!</h2>
+                <h2>Welcome to Metagram!</h2>
+
                 <div
                     className={styles.button}
                     onClick={() =>
@@ -21,8 +22,7 @@ const Login = () => {
                         )
                     }
                 >
-                    <img src="../assets/google.svg" alt="google" />
-                    Sign in with Google
+                    <img src={google} alt="google" /> Sign in with Google
                 </div>
             </div>
         </div>

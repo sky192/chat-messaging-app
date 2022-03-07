@@ -1,4 +1,6 @@
 import React from "react";
+
+// Styles
 import styles from "./Navbar.module.css";
 
 const Navbar = ({ logoutHandler }) => {
